@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 90%;
+  
+}
+
+.header ul li {
+  display: block;
+  margin: 10px;
+}
+
+.header ul {
+  display: flex;
+}
+
+.a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+}
+
+.main__left {
+  margin: 5%;
+  border-right: 3px solid grey ;
+}
+
+.item-card {
+  max-width: 420px;
+}
+
+.item-container__image {
+  min-height: 200px;
+  max-width: 420px;
+  cursor: pointer;
+}
+
+.bg-light {
+  margin: 0 auto;
+  justify-content: center;
+  margin-left: 50%;
+  width: 500px;
+}
