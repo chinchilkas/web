@@ -21,3 +21,8 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+.showMore {
+    text-decoration: none;
+    color: white;
+}
