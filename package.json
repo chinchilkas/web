@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Lab8 React: A web application built with React for managing tasks. This project is part of a web programming course and includes features such as task creation, deletion, and completion tracking.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chinchilkas/web.git"
+  },
+  "keywords": [
+    "web",
+    "react",
+    "javascript",
+    "front-end"
+  ],
+  "author": "chinchilkas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinchilkas/web/issues"
+  },
+  "homepage": "https://github.com/chinchilkas/web#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
