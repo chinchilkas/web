@@ -1,0 +1,28 @@
+.container {
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 100px;
+
+
+}
+
+.textContainer {
+    display: flex;
+
+    justify-content: left;
+    padding-left: 70px;
+}
+
+.text {
+    text-align: left;
+}
+
+/* Add responsive styling as needed */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .textContainer {
+        padding-left: 20px;
+    }
+}
