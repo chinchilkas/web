@@ -1,0 +1,10 @@
+.how__to__apply {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.how__to__apply__text {
+    width: 455px;
+    height: auto;
+}
