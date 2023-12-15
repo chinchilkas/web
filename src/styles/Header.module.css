@@ -1,0 +1,27 @@
+.header {
+    background-color: #333333;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.mobileMenu {
+    background-color: #333;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: block;
+}
+
+.navItem {
+    color: white;
+    outline: none;
+    text-decoration: none;
+
+}
