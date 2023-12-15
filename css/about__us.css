@@ -1,0 +1,26 @@
+.about__us_question {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    background: #FCDDD4;
+    border-left: 10px solid #ED4D47;
+    padding: 30px 55px 30px 45px;
+    width: 570px;
+    border-radius: 5px 0 0 5px;
+    color: #402B2B;
+    margin-top: 77px;
+    line-height: 36px;
+}
+
+.about__us {
+    width: 1171px;
+    height: 550px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.about__us-illustration {
+    width: 575.114px;
+    height: 480px;
+}

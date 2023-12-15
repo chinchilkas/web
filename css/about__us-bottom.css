@@ -1,0 +1,56 @@
+.body__nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.about__us-bottom {
+    margin-top: 200px;
+}
+
+.clients__title-bottom {
+    color: #402B2B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    margin-top: 13px;
+    justify-content: center;
+    text-align: center;
+}
+
+.body__text {
+    text-decoration: none;
+    width: 420px;
+    height: 360px;
+    margin-right: 20;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px #ee4d471a;
+}
+
+.text__clients {
+    font-family: 'Rubik', sans-serif;
+    color: #402B2B;
+    font-size: 16px;
+    font-weight: 300;
+    width: 320px;
+    height: 140px;
+    padding: 50px 50px;
+    justify-content: center;
+    line-height: 30px
+}
+
+.name {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+}
+
+.photo {
+    margin-right: 20px;
+    margin-left: 48px;
+}
+
+/* .client__name {
+    top: 50%;
+} */
