@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Create Bug</title>
+
+
+    <!-- Bootstrap 5 -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+            integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+            crossorigin="anonymous"
+    />
+    <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+            crossorigin="anonymous"
+    ></script>
+
+    <!-- <link rel="stylesheet" href="./css/custom.css" /> -->
+    <!--
+        UUID library
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script> -->
+</head>
+<body>
+<main>
+    <div class="row">
+        <div class="col-md-4 mt-2">
+            <form id="add_form" class="bg-light">
+                <h3 class="mb-3">Create bug</h3>
+                <div class="mb-3">
+                    <label for="title_input" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="title_input" required>
+                </div>
+                <div class="mb-3">
+                    <label for="description_input" class="form-label">
+                        Description
+                    </label>
+                    <input type="text" class="form-control" id="description_input" required>
+                </div>
+                <div class="mb-3">
+                    <div>
+                        <label for="complexity_input" class="form-label">
+                            Complexity (1- easy, 5-hard)
+                        </label>
+                        <select name="select_complexity" id="complexity_input" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="submit" type="submit" class="btn btn-primary">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</main>
+<script type="module" src="js/add_bug.js"></script>
+<script type="module" src="js/bugsData.js"></script>
+</body>
+</html>
