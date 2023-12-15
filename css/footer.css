@@ -1,0 +1,14 @@
+footer {
+    background-color: #F16353;
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    justify-self: center;
+    margin-top: 150px;
+    padding-top: 90px;
+}
+
+.footer__text {
+    font-weight: 700;
+    color: #F8F9FA;
+}

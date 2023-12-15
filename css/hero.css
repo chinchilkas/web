@@ -1,0 +1,28 @@
+.hero__title {
+    color: #FFF;
+    font-family: 'DM Serif Display', serif;
+    font-size: 100px;
+    width: 741px;
+    /* padding-top: 45px; */
+    /* margin-left: 100px; */
+}
+
+.hero__button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero {
+    background: url(/lab_1/imades/background.svg);
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-position: revert;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.under__heder-illustration {
+    padding-top: 18px;
+}
